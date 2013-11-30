@@ -19,14 +19,10 @@ class Fp_management extends MY_Controller {
 
 		
 		$data['title'] = "Pipeline";
-		$data['content_view'] = "pipeline_home_v";
+		$data['content_view'] = "commodities_v";
 		$data['banner_text'] = "Family Planning Stock Status";
 		$data['indicator'] = $this -> session -> userdata('user_indicator');
-		$data['kemsa_psi'] = Pipeline::kemsa_psi();
-		$data['fpcommodity'] = Fpcommodities::getAllfpcommodities();
-		$data['supplyplan'] = Pipeline::get_supply_plan();
-		$data['received'] = Pipeline::get_received();
-		$data['fundingsource'] = Funding_source::getAllfpfundingsources();
+		
 		$this -> load -> view("template", $data);
 	}
 

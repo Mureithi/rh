@@ -40,6 +40,7 @@ if ($access_level == "Super_admin") {
 	<script src="<?php echo base_url().'assets/scripts/highcharts.js'?>" type="text/javascript"></script>
 	<script src="<?php echo base_url().'assets/scripts/exporting.js'?>" type="text/javascript"></script>
 	<script src="<?php echo base_url().'assets/metro-bootstrap/docs/bootstrap.js'?>" type="text/javascript"></script>
+	<script src="<?php echo base_url().'assets/scripts/modal.js'?>" type="text/javascript"></script>
 	<script src="<?php echo base_url().'assets/scripts/alert.js'?>" type="text/javascript"></script>
 	<script src="<?php echo base_url().'assets/scripts/affix.js'?>" type="text/javascript"></script>
 	<script src="<?php echo base_url().'assets/scripts/popover.js'?>" type="text/javascript"></script>
